@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Ownly</title>
+<meta name="description" content="Ownly collects no data. The app is built without the Android internet permission and cannot transmit anything off your device.">
+<style>
+  :root{
+    --bg:#f6faf8; --surface:#ffffff; --ink:#15201c; --muted:#5b6b65;
+    --accent:#12705f; --line:#dbe5e0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0d1411; --surface:#18211e; --ink:#dde5e1; --muted:#a9b6b1;
+           --accent:#8ad6c1; --line:#2d3633; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:40px 22px 72px}
+  header{display:flex; align-items:center; gap:14px; margin-bottom:8px}
+  .mark{
+    width:44px; height:44px; border-radius:13px; flex:0 0 auto;
+    background:linear-gradient(135deg,#12705f,#0e5346);
+    display:grid; place-items:center;
+  }
+  .mark span{
+    width:22px; height:22px; border-radius:7px;
+    box-shadow:inset 0 0 0 6px #fff;
+  }
+  h1{font-size:1.6rem; line-height:1.25; margin:0; letter-spacing:-.02em}
+  .updated{color:var(--muted); font-size:.9rem; margin:4px 0 28px}
+  h2{font-size:1.08rem; margin:34px 0 10px; letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px; padding-left:20px}
+  li{margin-bottom:7px}
+  a{color:var(--accent)}
+  .lede{
+    background:var(--surface); border:1px solid var(--line);
+    border-left:4px solid var(--accent);
+    border-radius:14px; padding:18px 20px; margin:0 0 8px;
+  }
+  .lede p:last-child{margin-bottom:0}
+  table{
+    width:100%; border-collapse:collapse; margin:0 0 16px;
+    background:var(--surface); border:1px solid var(--line); border-radius:12px;
+    overflow:hidden; font-size:.95rem;
+  }
+  th,td{text-align:left; padding:11px 14px; border-bottom:1px solid var(--line); vertical-align:top}
+  tr:last-child th, tr:last-child td{border-bottom:0}
+  th{width:190px; font-weight:600; color:var(--muted)}
+  code{
+    background:var(--surface); border:1px solid var(--line);
+    border-radius:5px; padding:1px 5px; font-size:.9em;
+  }
+  footer{
+    margin-top:44px; padding-top:18px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:.88rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark"><span></span></div>
+    <h1>Privacy Policy for Ownly</h1>
+  </header>
+  <p class="updated">Last updated: 6 September 2026</p>
+
+  <div class="lede">
+    <p><strong>Ownly does not collect, transmit, or share any of your data. It cannot.</strong>
+    The app is built without the Android <code>INTERNET</code> permission, so it is technically
+    incapable of sending anything off your device.</p>
+  </div>
+
+  <h2>What Ownly stores</h2>
+  <p>Everything you enter — item names, brands, serial numbers, purchase dates, prices, notes,
+  locations, reminders, service history, and any photos or documents you attach — is stored in a
+  private database and private file storage on your own device. This storage is sandboxed by
+  Android and is not readable by other apps.</p>
+
+  <h2>What Ownly does not do</h2>
+  <ul>
+    <li>No account, sign-up, login, or email address is required or requested.</li>
+    <li>No data is uploaded to any server, ours or anyone else's.</li>
+    <li>No analytics, crash reporting, advertising, or tracking libraries are included.</li>
+    <li>No advertising identifier, device identifier, or location data is read.</li>
+    <li>No data is sold or shared with third parties, because none is collected.</li>
+  </ul>
+
+  <h2>Permissions and why they exist</h2>
+  <table>
+    <tr>
+      <th>POST_NOTIFICATIONS</th>
+      <td>Shows the daily reminder about upcoming warranties, expiries and renewals. These
+      notifications are generated on your device from your own data.</td>
+    </tr>
+    <tr>
+      <th>USE_BIOMETRIC</th>
+      <td>Only if you turn on the optional app lock, so Android can verify your fingerprint,
+      face, or screen lock. Ownly never sees your biometric data; Android handles it entirely.</td>
+    </tr>
+  </table>
+  <p>Ownly deliberately does <strong>not</strong> request camera or storage permissions. Taking a
+  photo uses the Android camera app, and choosing files uses the Android photo picker and document
+  picker, both of which hand a single chosen file to Ownly without granting broader access.</p>
+
+  <h2>Files you create</h2>
+  <p>When you export a backup or a CSV, or share a claim-pack PDF, you choose where that file goes
+  using the Android system file picker or share sheet. Once you send a file to another app or
+  service, that file is governed by the privacy policy of wherever you sent it, not by this one.
+  Encrypted backups are protected with AES-256-GCM using a key derived from the password you set;
+  that password is never stored, and it cannot be recovered if forgotten.</p>
+
+  <h2>Deleting your data</h2>
+  <p>You can delete any individual item at any time. To remove everything at once, open
+  <strong>Settings → Delete everything</strong>. Uninstalling Ownly also removes its database and
+  all attached files from your device. Because nothing was ever sent anywhere, there is no server
+  copy to request deletion of.</p>
+
+  <h2>Children</h2>
+  <p>Ownly is a general-purpose organiser suitable for all ages. It collects no data from anyone,
+  including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If a future version of Ownly ever adds an optional feature that involves the network — for
+  example an opt-in cloud backup — this policy will be updated before that version is released,
+  and any such feature will be off by default and clearly labelled.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:REPLACE_WITH_YOUR_SUPPORT_EMAIL">REPLACE_WITH_YOUR_SUPPORT_EMAIL</a></p>
+
+  <footer>Ownly — an offline app for the things you own.</footer>
+
+</div>
+</body>
+</html>
